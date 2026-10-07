@@ -1,0 +1,7 @@
+{
+  "name": "rafaqat-ai-gemini",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": { "@google/genai": "latest" }
+}
