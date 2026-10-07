@@ -1,10 +1,16 @@
-# Rafaqat AI + Gemini API
+# RAFAQAT AI Website
 
-1. Upload these files to your GitHub repository.
-2. Deploy the repository on Vercel (or another serverless Node host).
-3. In the deployment settings, add an environment variable:
-   GEMINI_API_KEY = your real Gemini API key
-4. Redeploy.
+A professional futuristic AI SaaS landing page based on the Rafaqat AI design created in the previous conversation.
 
-IMPORTANT: Never put the real API key in index.html, app.js, GitHub source code, or .env committed to Git.
-GitHub Pages alone is static and cannot run /api/chat.
+## Run
+Open `index.html` in a browser. No build step is required.
+
+## Structure
+- `index.html` — website markup
+- `styles.css` — responsive dark AI design
+- `script.js` — theme/chat interactions
+- `assets/hero-dashboard.png` — Rafaqat AI visual
+- `assets/logo.png` — Rafaqat AI logo
+
+## AI API
+This package intentionally does **not** contain a private API key. Never publish a Gemini/OpenAI key in frontend JavaScript. Add your key only on a secure backend/serverless function.
